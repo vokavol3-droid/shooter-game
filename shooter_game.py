@@ -146,7 +146,7 @@ while game:
     
         if sprite.spritecollide(player, asteroids, True):
             lives-=1
-            asteroid = Asteroid('asteroid.png', randint(5, 495), randint(0, 100), randint(1, 2), 60, 50)
+            asteroid = Asteroid('asteroid.png', randint(5, 494), randint(0, 100), randint(1, 2), 60, 50)
             asteroids.add(asteroid)
 
         x = 650
